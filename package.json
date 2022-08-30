@@ -1,6 +1,6 @@
 {
   "name": "opcmodal",
-  "version": "0.1.6",
+  "version": "0.1.8",
   "private": false,
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -47,5 +47,9 @@
     "@babel/cli": "^7.18.9",
     "@babel/core": "^7.18.9",
     "@babel/preset-env": "^7.18.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stephan075/opcmodal.git"
   }
 }

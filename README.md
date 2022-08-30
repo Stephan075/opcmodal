@@ -22,15 +22,33 @@ Pour importer le modal :
 ## Exemples d'utilisation
 
 ```js
-<Modal closeModal={closeModal} />
+// react
+import { useState } from "react";
+import { Modal } from "opcmodal";
+
+const MyComponent = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const openModal = () => {
+    setIsOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsOpen(false);
+  };
+
+  return (
+    <div onClick={openModal}>{isOpen && <Modal closeModal={closeModal} />}</div>
+  );
+};
 ```
 
 ### Type par défaut
 
 ```js
 Modal.propTypes = {
-  currentData: PropTypes.object,
   isOpen: PropTypes.bool,
+  openModal: PropTypes.func,
   closeModal: PropTypes.func,
 };
 ```

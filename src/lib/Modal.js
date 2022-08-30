@@ -2,6 +2,11 @@ import styles from "./Modal.module.css";
 import validateImg from "./assets/images/undraw_superhero_kguv.svg";
 import PropTypes from "prop-types";
 
+/**
+ * simple reusable reactJS Modal
+ * @module Opcmodal
+ */
+
 const Modal = ({ closeModal }) => {
   return (
     <div className={`${styles.modal}`}>
