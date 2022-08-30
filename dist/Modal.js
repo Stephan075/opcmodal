@@ -15,6 +15,10 @@ var _jsxRuntime = require("react/jsx-runtime");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+/**
+ * simple reusable reactJS Modal
+ * @module Opcmodal
+ */
 const Modal = _ref => {
   let {
     closeModal

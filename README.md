@@ -12,7 +12,10 @@ Un modal react simple
 ## Installation
 
 Vous pouvez installer Opcmodal avec npm :
-`npm i Opcmodal`
+
+```bash
+npm install Opcmodal --save
+```
 
 Pour importer le modal :
 `import { Modal } from "opcmodal";`
