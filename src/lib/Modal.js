@@ -3,7 +3,7 @@ import validateImg from "./assets/images/undraw_superhero_kguv.svg";
 import PropTypes from "prop-types";
 
 /**
- * simple reusable reactJS Modal
+ * Modal reactJS simple et réutilisable
  * @module Opcmodal
  */
 
