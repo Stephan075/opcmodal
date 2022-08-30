@@ -1,6 +1,7 @@
 {
   "name": "opcmodal",
-  "version": "0.1.10",
+  "description": "Opcmodal a simple and reusable Modal reactJS 😀",
+  "version": "0.1.11",
   "private": false,
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -51,5 +52,10 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Stephan075/opcmodal.git"
-  }
+  },
+  "keywords": [
+    "plugin",
+    "modal",
+    "reactJS"
+  ]
 }
